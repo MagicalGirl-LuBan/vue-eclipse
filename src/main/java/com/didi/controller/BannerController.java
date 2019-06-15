@@ -24,6 +24,7 @@ public class BannerController {
     public List<Banner> list() {
     	//1111
     	//222
+	//444
         return bannerService.list();
     }
     
