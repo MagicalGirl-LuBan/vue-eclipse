@@ -1,0 +1,17 @@
+server:
+  port: 9090
+  
+
+spring:  datasource:    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bobo?characterEncoding=utf8
+    username: root
+    password: 123456
+  
+ 
+mybatis:  type-aliases-package: com.didi.pojo
+  
+ 
+pagehelper:  helper-dialect: mysql
+  params: count=countSql
+  support-methods-arguments: true
+  
