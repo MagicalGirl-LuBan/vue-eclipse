@@ -22,15 +22,7 @@ public class BannerController {
 
     @GetMapping("/list")
     public List<Banner> list() {
-    	//1111
     	//222
-		//333
-    	//444
-    	//555
-    	//666
-    	//777
-    	//888
-	//000
         return bannerService.list();
     }
     
