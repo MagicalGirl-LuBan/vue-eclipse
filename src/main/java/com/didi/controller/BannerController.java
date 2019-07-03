@@ -25,7 +25,7 @@ public class BannerController {
     	//111
     	//222
 	//333
-
+	//444
         return bannerService.list();
     }
     
