@@ -30,6 +30,7 @@ public class BannerController {
     	//666
     	//777
     	//888
+    	//999
         return bannerService.list();
     }
     
